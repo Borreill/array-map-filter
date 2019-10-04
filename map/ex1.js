@@ -22,7 +22,12 @@ En sortie: [
  */
 
 function getStringsLength(strings) {
+  const food = strings.map(i => {
+    return `${i} contains ${i.length} characters`
+  })
+  return food
 }
+
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node map/ex1

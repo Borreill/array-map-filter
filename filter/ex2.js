@@ -24,6 +24,12 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+
+  const branIsTheKing = names.filter((i) => {
+    return i.endsWith('Stark');
+  })
+  return branIsTheKing
+
 }
 
 // Ne pas modifier l'export
